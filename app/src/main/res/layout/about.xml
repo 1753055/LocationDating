@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30px">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My location app"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textStyle="bold"
+        android:text="Group 05 - 17CLC KTPM  - Android subject, University of Science" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:text="Founder and partner:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:text="1753003 - Nguyễn Phạm Quang Định"/>
+    <TextView
+    android:id="@+id/textView15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20px"
+    android:layout_marginLeft="20px"
+    android:layout_marginRight="20px"
+    android:gravity="right"
+    android:textStyle="italic"
+    android:text="1753048 - Phạm Khánh Duy"/>
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:text="1753052 - Phạm Minh Hiếu"/>
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:text="17530455 - Nguyễn Huy Hoàng"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:text="1753057 - Phù Vĩnh Hùng"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textStyle="bold"
+        android:text="Have a nice experience! "/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textStyle="bold"
+        android:text="Best, Mylocation team "/>
+</LinearLayout>

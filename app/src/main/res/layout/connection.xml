@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee_italic"
+        android:gravity="center"
+        android:text="Connection"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="#25364F"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/datingTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:tabSelectedTextColor="#FF4D5E">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabitem_connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connection" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabitem_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/viewpagerConnection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        />
+
+</LinearLayout>

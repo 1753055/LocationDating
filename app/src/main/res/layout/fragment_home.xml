@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<com.mapbox.mapboxsdk.maps.MapView
+    android:id="@+id/mapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    mapbox:layout_constraintStart_toStartOf="parent"
+    mapbox:layout_constraintTop_toTopOf="parent"
+    mapbox:mapbox_cameraTargetLat="38.9098"
+    mapbox:mapbox_cameraTargetLng="-77.0295"
+    mapbox:mapbox_cameraZoom="12">
+
+</com.mapbox.mapboxsdk.maps.MapView>
+<ImageView
+    android:id="@+id/savePlace"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="243dp"
+    android:background="@drawable/btn_direct"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintEnd_toEndOf="parent"
+    android:tint="@android:color/white"
+    android:padding="10dp"
+    mapbox:srcCompat="@drawable/mapbox_ic_place" />
+
+<ImageView
+    android:id="@+id/gps"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="170dp"
+    android:background="@drawable/btn_direct"
+    android:padding="10dp"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintEnd_toEndOf="parent"
+    mapbox:srcCompat="@android:drawable/ic_menu_add" />
+
+<ImageView
+    android:id="@+id/startButton"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="100dp"
+    android:background="@drawable/btn_direct"
+    android:padding="10dp"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintEnd_toEndOf="parent"
+    mapbox:srcCompat="@drawable/ic_navigation" />
+<ImageView
+    android:id="@+id/moreInfo"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="28dp"
+    android:background="@drawable/btn_direct"
+    android:padding="10dp"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintStart_toStartOf="parent"
+    mapbox:srcCompat="@android:drawable/ic_menu_info_details" />
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab_location_search"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="28dp"
+    android:tint="@android:color/white"
+    mapbox:backgroundTint="@color/colorPrimary"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintEnd_toEndOf="parent"
+    mapbox:srcCompat="@android:drawable/ic_search_category_default" />
+
+<LinearLayout
+    android:id="@+id/informationPlace"
+    android:layout_width="330dp"
+    android:layout_height="195dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="28dp"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="10dp"
+    mapbox:layout_constraintBottom_toBottomOf="parent"
+    mapbox:layout_constraintStart_toStartOf="parent">
+
+    <ImageView
+        android:id="@+id/closePlaceInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        mapbox:srcCompat="@drawable/ic_clear" />
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Name"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/placeCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Country"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/placeDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: 0km" />
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

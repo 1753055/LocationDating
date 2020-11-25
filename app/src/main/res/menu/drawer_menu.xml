@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+        <item android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_24dp"
+            android:title="My account" />
+        <item android:id="@+id/nav_saveplace"
+            android:icon="@drawable/ic_save_place"
+            android:title="Saved place" />
+        <item android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_timeline_24dp"
+            android:title="My timeline" />
+        <item android:id="@+id/nav_statistic"
+            android:icon="@drawable/ic_statistic"
+            android:title="Statistic" />
+        <item android:id="@+id/nav_connection"
+            android:icon="@drawable/ic_connect"
+            android:title="Connection" />
+        <item android:id="@+id/nav_devices"
+            android:icon="@drawable/ic_devices"
+            android:title="Tracking devices" />
+        <item android:id="@+id/nav_dating"
+            android:icon="@drawable/ic_dating"
+            android:title="Dating" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item android:id="@+id/nav_about"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us" />
+            <item android:id = "@+id/nav_signout"
+                android:title="Sign out"
+                android:icon="@drawable/ic_signout"/>
+        </menu>
+    </item>
+</menu>
